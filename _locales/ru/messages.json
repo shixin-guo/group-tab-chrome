@@ -1,0 +1,74 @@
+{
+   "close": {
+      "message": "Закрыть"
+   },
+   "contextMenu_makeGroups": {
+      "message": "Группировать!"
+   },
+   "description": {
+      "message": "Если открыто много вкладок, нажмите на кнопку расширения - и все вкладки сгруппируются в виде удобных списков"
+   },
+   "name": {
+      "message": "Группировка Вкладок"
+   },
+   "nodata": {
+      "message": "Нет данных"
+   },
+   "options_excludeHosts": {
+      "message": "список исключений"
+   },
+   "options_feedback": {
+      "message": "Оставить отзыв"
+   },
+   "options_groupHost": {
+      "message": "группировать по домену"
+   },
+   "options_groupHostDesc": {
+      "message": "будут сгруппированы все вкладки с одного сайта (домена)"
+   },
+   "options_groupRare": {
+      "message": "группировать редко используемые вкладки"
+   },
+   "options_groupRareDesc": {
+      "message": "будут сгруппированы вкладки, которые вы не использовали в течение 3-х часов"
+   },
+   "options_groupSerp": {
+      "message": "группировать результаты поиска (Google, Яндекс)"
+   },
+   "options_groupSerpDesc": {
+      "message": "будут сгруппированы все вкладки, которые вы открыли с поисковой выдачи по определенному запросу"
+   },
+   "options_restoreGroups": {
+      "message": "Восстановить все сохраненные группы"
+   },
+   "options_save": {
+      "message": "Сохранить"
+   },
+   "options_saved": {
+      "message": "Сохранено"
+   },
+   "options_showContextMenuItem": {
+      "message": "показывать пункт в контекстном меню"
+   },
+   "options_showContextMenuItemDesc": {
+      "message": "через контекстное меню можно быстро группировать вкладки"
+   },
+   "options_title": {
+      "message": "Настройка"
+   },
+   "options_version": {
+      "message": "Версия"
+   },
+   "rarelyUsed": {
+      "message": "Редко используемые"
+   },
+   "restore": {
+      "message": "Открыть все ссылки в \u003Cb>текущем\u003C/b> окне"
+   },
+   "restoreNewWin": {
+      "message": "Открыть все ссылки в \u003Cb>новом\u003C/b> окне"
+   },
+   "shortName": {
+      "message": "Груп.Вкладок"
+   }
+}

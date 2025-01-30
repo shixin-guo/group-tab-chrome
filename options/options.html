@@ -1,0 +1,73 @@
+<html>
+  <head>
+    <title></title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="options.css">
+    <script type="text/javascript" src="../bg/storage.js"></script>
+    <script type="text/javascript" src="../bg/utils.js"></script>
+    <script type="text/javascript" src="options.js"></script>
+  </head>
+  <body>
+  <h2></h2>
+  <hr>
+
+  <div class="row check">
+    <label>
+      <div class="checkbox-wrap">
+        <input type="checkbox" id="groupHost">
+        <span data-i18n="groupHost"></span><br>
+        <span data-i18n="groupHostDesc" class="note"></span>
+      </div>
+    </label>
+  </div>
+
+  <div class="row check">
+    <label>
+      <div class="checkbox-wrap">
+        <input type="checkbox" id="groupSerp">
+        <span data-i18n="groupSerp"></span><br>
+        <span data-i18n="groupSerpDesc" class="note"></span>
+      </div>
+    </label>
+  </div>
+
+  <div class="row check">
+    <label>
+      <div class="checkbox-wrap">
+        <input type="checkbox" id="groupRare">
+        <span data-i18n="groupRare"></span><br>
+        <span data-i18n="groupRareDesc" class="note"></span>
+      </div>  
+    </label>
+  </div>
+
+  <div class="row check">
+    <label>
+      <div class="checkbox-wrap">
+        <input type="checkbox" id="showContextMenuItem">
+        <span data-i18n="showContextMenuItem"></span><br>
+        <span data-i18n="showContextMenuItemDesc" class="note"></span>
+      </div>  
+    </label>
+  </div>
+
+  <div class="row">
+    <div><span data-i18n="excludeHosts"></span>:</div>
+    <div class="textarea-wrap">
+      <textarea id="excludeHosts" rows="7"></textarea>
+    </div>
+  </div>
+
+  <div class="row">
+    <a href="#" id="restoreGroups" data-i18n="restoreGroups"></a>
+  </div>
+
+  <footer>
+    <div>
+      <a href="#" id="version-link"><span data-i18n="version"></span> <span id="version"></span></a>
+    </div>
+    <div><a href="#" id="feedback" target="_blank"><span data-i18n="feedback"></span></a></div>
+  </footer>
+   
+  </body>
+</html>

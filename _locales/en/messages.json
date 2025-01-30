@@ -1,0 +1,74 @@
+{
+   "close": {
+      "message": "Close"
+   },
+   "contextMenu_makeGroups": {
+      "message": "Group!"
+   },
+   "description": {
+      "message": "When you open too many tabs, just click the extension button - and all your tabs will be grouped in a pretty lists"
+   },
+   "name": {
+      "message": "Group Your Tabs"
+   },
+   "nodata": {
+      "message": "No data"
+   },
+   "options_excludeHosts": {
+      "message": "exclude domains"
+   },
+   "options_feedback": {
+      "message": "Feedback"
+   },
+   "options_groupHost": {
+      "message": "group per domain"
+   },
+   "options_groupHostDesc": {
+      "message": "will group all tabs opened on particular domain"
+   },
+   "options_groupRare": {
+      "message": "group rarely used tabs"
+   },
+   "options_groupRareDesc": {
+      "message": "will group tabs that you did not use within 3 hours"
+   },
+   "options_groupSerp": {
+      "message": "group search results (Google, Yandex)"
+   },
+   "options_groupSerpDesc": {
+      "message": "will group all tabs opened from search engine results page"
+   },
+   "options_restoreGroups": {
+      "message": "Restore all saved groups"
+   },
+   "options_save": {
+      "message": "Save"
+   },
+   "options_saved": {
+      "message": "Saved"
+   },
+   "options_showContextMenuItem": {
+      "message": "show item in contextmenu"
+   },
+   "options_showContextMenuItemDesc": {
+      "message": "youi can quickly group tabs via contextmenu"
+   },
+   "options_title": {
+      "message": "Settings"
+   },
+   "options_version": {
+      "message": "Version"
+   },
+   "rarelyUsed": {
+      "message": "Rarely used"
+   },
+   "restore": {
+      "message": "Open all links in \u003Cb>current\u003C/b> window"
+   },
+   "restoreNewWin": {
+      "message": "Open all links in \u003Cb>new\u003C/b> window"
+   },
+   "shortName": {
+      "message": "Group Y Tabs"
+   }
+}

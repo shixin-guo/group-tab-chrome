@@ -1,0 +1,75 @@
+body {
+  padding: 30px;
+  font-size: 110%;
+}
+
+h2 {
+  padding-left: 55px;
+  height: 40px;
+  margin-bottom: 10px;
+  background: url(../img/kpager-48.png) left center no-repeat;
+  white-space: nowrap;
+}
+
+hr {
+  margin-bottom: 25px;
+}
+
+
+.row {
+  margin: 12px 0;
+  clear: both;
+}
+
+/*
+.check label * {
+  vertical-align: middle;
+}
+*/
+
+.check input {
+  /*margin: 7px 5px 3px 0;*/
+  position: absolute;
+  left: -25px;
+  top: 4px;
+}
+
+.checkbox-wrap {
+  position: relative;
+  margin-left: 25px;
+  width: 80%;
+}
+
+.note {
+  font-size: 90%;
+  color: gray;
+}
+
+.textarea-wrap {
+  /*float: left;*/
+  width: 30%;
+  text-align: center;
+}
+
+.textarea-wrap textarea {
+  width: 100%;
+}
+
+.textarea-wrap button {
+  margin-top: 12px;
+  margin-bottom: 3px;
+  font-size: 100%;
+}
+
+#saved-msg {
+  color: green;
+  visibility: hidden;
+  font-size: 0.9em;
+}
+
+footer {
+  padding-top: 25px;
+  clear: both;
+  color: gray;
+  font-size: 0.7em;
+}

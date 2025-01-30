@@ -1,0 +1,157 @@
+body {
+	margin: 20px;
+	font-family: Tahoma;
+}
+
+#header {
+	color: gray;
+  text-decoration: none;
+}
+
+#nodata {
+  font-size: 110%;
+  font-style: italic;
+}
+
+#settings {
+  float: right;
+  position: relative;
+  width: 20px;
+  height: 20px;
+  right: 0;
+  cursor: pointer;
+  background: url('img/settings-16.png') center center no-repeat;
+  opacity: 0.7;
+  z-index: 2;
+}
+
+#settings:hover {
+  opacity: 1;
+}
+
+.link {
+  margin: 6px 0;
+	padding: 2px 0px 3px 45px;
+  position: relative;
+}
+
+.bullet {
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+  margin-right: 5px;
+  position: absolute;
+  left: 25px;
+}
+
+.note, .note:hover, .note:visited {
+  font-size: 90%;
+  color: gray;
+  padding-left: 4px;
+  text-decoration: none;
+}
+
+.buttons {
+  margin-top: 24px;
+}
+
+.buttons button {
+  margin-top: 12px;
+  display: block;
+  width: 240px;
+}
+
+.closer {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background: url('img/delete.png') center center no-repeat;
+  left: 0px;
+  top: 2px;
+  display: none;
+  cursor: pointer;
+}
+
+.link:hover .closer {
+  display: block;
+}
+
+
+.removed-item {
+  -webkit-animation: removed-item-animation .3s ease-out;
+}
+
+/* see: http://sarasoueidan.com/demos/creative-list-effects/index-5.html */
+
+/*
+.removed-item {
+  -webkit-animation: removed-item-animation2 2s cubic-bezier(.55,-0.04,.91,.94) forwards;
+  -webkit-transform-origin: top left;
+}
+*/
+
+@-webkit-keyframes removed-item-animation {
+  from {
+    opacity: 1;
+    /*transform: translateX(0);*/
+  }
+ 
+  to {
+    opacity: 0;
+    /*transform: translateX(1000px);*/
+   }
+}
+
+/*
+@-webkit-keyframes removed-item-animation2 {
+  0% {
+    -webkit-transform: rotate(0);
+  }
+
+  100% {
+    -webkit-transform: rotate(140deg);
+  }
+}
+
+
+@-webkit-keyframes removed-item-animation1 {
+    0% {
+        opacity: 1;
+        transform: rotateZ(0);
+
+    }
+ 
+    20% {
+        opacity: 1;
+        transform: rotateZ(140deg);
+    }
+ 
+    40% {
+        opacity: 1;
+        transform: rotateZ(60deg);
+    }
+ 
+    60% {
+        opacity: 1;
+        transform: rotateZ(110deg);
+    }
+ 
+    70% {
+        opacity: 1;
+        transform: rotateZ(90deg) translateX(0);
+    }
+ 
+    90% {
+        opacity: 1;
+        transform: rotateZ(90deg) translateX(600px);
+    }
+ 
+    100% {
+        opacity: 0;
+        transform: rotateZ(90deg) translateX(600px);
+    }
+}
+*/
+
+
+

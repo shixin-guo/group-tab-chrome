@@ -1,0 +1,37 @@
+body {
+  padding: 5px;
+  font-size: 110%;
+}
+
+#logo {
+  height: 130px;
+  background: url(../img/kpager-128.png) center center no-repeat;
+}
+
+h2 {
+  margin: 5px 0;
+  text-align: center;
+}
+
+h3 {
+  margin: 5px 0;
+  text-align: center;
+}
+
+.wrap {
+  width: 75%;
+  margin: 40px auto 0 auto;
+}
+
+.ul-title {
+  font-weight: bold;
+}
+
+ul {
+  margin-top: 10px;
+}
+
+.footer-button {
+  margin-top: 30px;
+  text-align: center;
+}
